@@ -71,7 +71,7 @@ if __name__ == '__main__':
             pass
         elif option == 2:
             code = word
-            o_word = decode(code)
+            o_word = decode(code) #o_word stands for original password
             print(f'The encoded password is', code, 'and the original password is', o_word, end=".")
             pass
         elif option == 3:
